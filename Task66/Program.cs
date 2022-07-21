@@ -15,4 +15,10 @@
     return M;
 }
 
-Console.Write(SumOfNaturalElem(8, 4));
+Console.Write("Введите 1 число: ");
+int m = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Введите 2 число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Сумма натуральных элементов в указанном промежутке: " + SumOfNaturalElem(m, n));
